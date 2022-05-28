@@ -1,0 +1,477 @@
+
+body{
+    margin: 0;
+}
+
+.header1{
+    background-color: beige;
+    padding: 0px 30px 7px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    position: absolute;
+}
+
+
+/*---Navigation Bar---*/
+ul#navigation {
+    background-color:  lightblue;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    min-width: 600px;
+}
+#navigation li {
+    display: inline;
+    margin: 5px 10px;
+}
+
+a:link,a:visited{
+    text-decoration: none;
+    padding: 5px 15px ;
+    color: black;
+    border-radius: 25px;
+}
+
+#navigation a:hover, #navigation a:active {
+    background-color: beige;
+    border-radius: 25px;
+    color: #004080;
+    transition: 0.5s;
+}
+
+.prodbtn {
+    background-color:  lightblue;
+    color: black;
+    padding: 7px 10px;
+    font-size: 18px;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.product{
+    position: relative;
+    display: inline-block;
+}
+
+.product-list {
+   display: none;
+   position: absolute;
+   background-color: #f1f1f1;
+   border-radius: 25px;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+}
+
+.product-list a{
+   color: black;
+   text-align: left;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+}
+
+.product-list a:hover {background-color: #ddd;}
+
+.product:hover .product-list{display: block;}
+
+.product:hover .prodbtn{
+   background-color: beige;
+   color: #004080;
+   border-radius: 25px;
+   transition: 0.5s;
+}
+
+.subheader {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 10px;
+    background-color: beige;
+    letter-spacing: 10px;
+    text-align: center;
+    min-width: 600px;
+    margin-bottom: 30px;
+}
+
+/*---Mainpage---*/
+body#main{
+    background-color: rgba(245, 245, 220, 0.436);
+}
+
+.header2{
+    margin-top: 100px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.header2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.header2 p{
+    font-size: 20px;
+}
+
+.header2 button{
+    width: 180px;
+    font-size: 15px;
+    padding: 12px 0px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.header2 button:hover{
+    background-color: rgb(142, 208, 230);
+    transition: 0.5s;
+    box-shadow: 3px 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card1, .card2, .card3, .card4{
+    width: 25%;
+    padding: 15px 20px;
+    margin: 100px 25px;
+    float: left;
+    margin-bottom: 150px;
+}
+.card1{
+    background-color: white;
+    width: 210px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    transition: 0.5s;
+}
+
+.card2{
+    background-color: white;
+    width: 210px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    transition: 0.5s;
+}
+
+.card3{
+    background-color: white;
+    width: 210px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    transition: 0.5s;
+
+}
+.card4{
+    background-color: white;
+    width: 210px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    transition: 0.5s;
+    
+}
+
+.card img{
+    margin-top: 40px;
+    width: 70%;
+}
+
+.card h4{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card1:hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+.card2:hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+.card3:hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+.card4:hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+
+/*---Phones.html Page---*/
+
+.phone1, .phone2,.phone3{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 140px;
+    margin-left: 50px;
+}
+
+.phone1{
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding-top: 30px;
+    transition: 0.5s;
+}
+
+.phone2{
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding-top: 30px;
+    transition: 0.5s;  
+
+}
+
+.phone3{
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding-top: 30px;
+    transition: 0.5s;
+}
+
+.phone1 img{
+    width: 40%;
+    padding-bottom: 1px;
+}
+
+.phone2 img{
+    width: 54%;
+    padding-bottom: 3px;
+}
+
+.phone3 img{
+    width: 45%;
+}
+
+.phone1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.phone2:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.phone3:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.phone1 li, .phone2 li, .phone3 li{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.phone1 ul, .phone2 ul, .phone3 ul{
+    background-color: beige;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p.name {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.price {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*---Iphone, ROG, Samsung Page---*/
+
+table, tr, td{
+    border: 5px solid white;
+    border-collapse: collapse;
+    background-color: beige;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1.price2 {
+    padding: 0px 10px;
+    font-size: 40px;
+    background-color: lightblue;
+}
+
+.devicenme {
+    background-color: lightblue;
+    padding: 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+select {
+    border: 1px solid black;
+    background-color: lightblue;
+    padding: 15px;
+}
+
+.specs h2 {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+img.device:hover {
+    transform: scaleX(-1);
+}
+
+#colour:hover{
+    background-color: rgb(123, 204, 231);
+}
+
+.buybutton:link {
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 15px 40px;
+    border-radius: 0px;
+    margin-left: 20px;
+}
+
+.buybutton:visited {
+    background-color: lightblue;
+    border: none;
+    padding: 15px;
+    border-radius: 0px;
+    margin-left: 20px;
+}
+
+.buybutton:hover, .buybutton:active {
+    background-color: rgb(123, 204, 231);
+    border: 1px solid black;
+    color: #004080;
+    transition: 0.5s;
+}
+
+/*---Buy Page---*/
+body#buypage{
+    background-color: lightblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+#buypage h1{
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    background-color: beige;
+    border-radius: 5px;
+    width: 450px;
+    padding: 10px ;
+}
+.cart {
+    width: 20%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#buypage a:link, #buypage a:visited{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px 50px;
+
+}
+
+#buypage a:hover, #buypage a:active{
+    background-color: rgb(229, 229, 229);
+    border-radius: 5px;
+    padding: 10px 50px;
+    border: 1px solid black;
+    transition: 0.5s;  
+}
+/*---footer---*/
+footer{
+    clear: left;
+}
+
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    background-color: #272727;
+}
+
+.social{
+    display: flex;
+}
+
+.social ul {
+    padding: 20px;
+    display: flex;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+}
+
+.social-icon{
+    list-style: none;
+}
+
+.social-icon a{
+    padding: 10px 20px;
+    font-size: 35px;
+    color: #6cccc6;
+    transition: all .25s;
+}
+
+.social-icon a:hover{
+    color: #4c8c88;
+}
+
+.links{
+    display: flex;
+    width: 560px;
+    height: 70px;
+    margin: auto;
+}
+
+.links ul{
+    display: flex;
+}
+
+.links-items{
+    list-style: none;
+}
+
+.links-items a{
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 20px;
+    color: white;
+    transition: all .25s;
+}
+
+.links-items a:hover{
+    color: #6cccc6;
+}
+
+.outer-footer{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: #3f3f3f;
+}
+
+    
